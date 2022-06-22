@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+}
+.easy-select-container {
+}
+
+.easy-select-container:hover {
+}
+
+.options-container {
+  padding: 5px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.selected-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.selected-container:hover {
+  border: solid 1px blue;
+}
+
+.option {
+  padding: 10px;
+}
+
+.option:hover {
+  background-color: azure;
+  color: blue;
+}
+
+.arrow {
+  text-align: right;
+}
