@@ -1,1 +1,1 @@
-A simple select component based on react
+A simple select component based on react.
