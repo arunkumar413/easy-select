@@ -1,22 +1,9 @@
-body {
-  font-family: sans-serif;
-}
 .easy-select-container {
+  width: 200px;
 }
 
-.easy-select-container:hover {
-}
-
-.options-container {
-  padding: 5px;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
-    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.selected-container {
+.easy-select-container .selected-container {
+  font-family: sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
@@ -27,19 +14,29 @@ body {
     rgb(209, 213, 219) 0px 0px 0px 1px inset;
 }
 
-.selected-container:hover {
+.easy-select-container .options-container {
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.easy-select-container .selected-container:hover {
   border: solid 1px blue;
 }
 
-.option {
+.easy-select-container .option {
   padding: 10px;
 }
 
-.option:hover {
+.easy-select-container .option:hover {
   background-color: azure;
   color: blue;
 }
 
-.arrow {
+.easy-select-container .arrow {
   text-align: right;
 }

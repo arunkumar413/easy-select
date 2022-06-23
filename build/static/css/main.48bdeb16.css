@@ -1,0 +1,2 @@
+body{font-family:sans-serif}.options-container{border-radius:5px;box-shadow:0 2px 4px 0 rgba(14,30,37,.12),0 2px 16px 0 rgba(14,30,37,.32);display:grid;grid-template-columns:1fr;padding:5px}.selected-container{align-items:center;border-radius:5px;box-shadow:0 0 0 1px rgba(0,0,0,.05),inset 0 0 0 1px #d1d5db;display:grid;grid-template-columns:1fr 1fr;justify-content:space-between;padding:10px}.selected-container:hover{border:1px solid blue}.option{padding:10px}.option:hover{background-color:azure;color:blue}.arrow{text-align:right}
+/*# sourceMappingURL=main.48bdeb16.css.map*/
