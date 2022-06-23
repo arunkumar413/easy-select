@@ -1,3 +1,2 @@
-# react-dm2msm
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-dm2msm)
+easy-select, A simple select component based on react.
